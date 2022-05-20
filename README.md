@@ -64,3 +64,9 @@ a few configuration that needs to be done before getting into actual development
     ```bash
     nodemon ./src/index.ts
     ```
+
+## Project Structure
+
+Unlike other frameworks like Spring Boot or Django, Nodejs does not come with a built-in project structure. This can be considered a blessing or a hassle depending on the usecase.
+In smaller cases or MVPs(Minimum Viable Product) we might want to use a simple project structure, in which cases Nodejs is a good choice considering the project can be built rather quickly and easily.
+In larger cases, nodejs can be quite painful to use, as one might have build a clean architecture and in worst case scenario the project will be quite a hassle to maintain.
