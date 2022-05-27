@@ -1,6 +1,6 @@
 import express, {Application, Request, Response} from 'express';
 
-import router from './endpoints/routes';
+import router from './api/routes/index';
 import init from './db/db.init';
 
 
