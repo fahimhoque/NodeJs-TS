@@ -29,7 +29,11 @@ a few configuration that needs to be done before getting into actual development
     yarn add -DE typescript
     ```
 
-    This will add typescript as a dev dependency in your project.
+    This will add typescript as a dev dependency in your project. Also add
+
+    ```bash
+    npx tsc --init
+    ```
 
 6. Inside `tsconfig.json` search for `rootDir` and `outDir`. What this two does is:
     1. `rootDir` is the root directory of your project. Good practice dictates that this should be `./src`.
